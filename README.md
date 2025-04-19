@@ -18,12 +18,15 @@ Once the repository is cloned, you can navigate the project's contents. Make sur
 - R & Rstudio
 
 ## Contents of the Repository
+
 * `\Data` - Contains the modified CSV file to contain case delays as observations.
 * `\R` - Contains the source R file to compute the false discovery rates.
 * `\Output` - Contains the output files from AITIA-PM.
-* `main.py` - The Python source code to apply AITIA-PM on a dataset.
+* `main_realdata.py` - The Python source code used for the application on the real dataset Road Traffic Fine Maangement.
+* `main_artificialdata.py` - The Python source code used for the application on the artificailly generated dataset.
 * `Hypothesizer.py` - The Python class built to define the search space.
 * `Inference.py` - The Python class to identify cause-effect relations.
 
 ## Using the Repository Source Code
 
+`main_realdata.py` and `main_artificialdata.py` are ready to use out of the box. Feel free to make modifications to the contents of the files to try other search spaces.
